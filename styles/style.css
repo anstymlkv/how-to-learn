@@ -94,7 +94,7 @@ body {
 
   width: 80%;
   min-width: 784px;
-  justify-content: space-between;
+
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -293,12 +293,17 @@ body {
 }
 
 .table__cell_theme_dark {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  justify-content: space-around;
 
 }
+
 .table__heading_theme_dark {
   margin: 0;
   line-height: 1.15;
@@ -324,15 +329,6 @@ body {
   position: absolute;
   top: 0;
   right: -210px;
-  z-index: 0;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  justify-content: space-around;
   z-index: 0;
 }
 
