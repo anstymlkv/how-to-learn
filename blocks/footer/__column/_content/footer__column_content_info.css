@@ -1,0 +1,6 @@
+.footer__column_content_info {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
