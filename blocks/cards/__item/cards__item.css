@@ -1,5 +1,5 @@
 .cards__item {
-  width: 250px;
+  width: 240px;
   text-align: left;
   margin: 0;
   margin-right: 100px;
@@ -10,4 +10,6 @@
   flex-wrap: wrap;
 }
 
-
+.cards__item:nth-child(3) {
+  margin-right: 0;
+}
