@@ -1,10 +1,8 @@
 .resources__link {
-  width: 270px;
-  height: 38px;
   text-decoration: none;
   transition: transform 0.4s ease;
 }
 
 .resources__link:hover {
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
